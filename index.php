@@ -1,12 +1,10 @@
 <?php
-    include 'inc/header.php';echo "# PHP_Array"
+    include 'inc/header.php';
 ?>
+<h2>Array Function</h2>
 <?php
-   echo"Again Start PHP Programming";
-   echo"Hi I am Mazbaul Islam";  
+   include 'classes/array.php';
 ?>
-
-
 
 
 
