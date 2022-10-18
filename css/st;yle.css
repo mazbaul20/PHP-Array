@@ -1,0 +1,359 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-size: 20px;
+}
+html {
+    color: #222;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video{
+  vertical-align: middle;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.headsection {
+  background: #151515 none repeat scroll 0 0;
+  max-height: 70px;
+}
+.logo{float:left;}
+.logo img{}
+.title {
+  color: #fff;
+  float: left;
+}
+.title span {
+  font-weight: bold;
+}
+.title h2 {
+  font-size: 40px;
+  margin: 0 0 0 10px;
+}
+.bannersection{
+	background:url(../img/banner.jpg)no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+	padding:120px 0;
+}
+.banner {
+  max-width: 635px;
+}
+.banner h1 {
+  color: #fff;
+  font-size: 52px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.banner p {
+  color: #fff;
+  font-size: 30px;
+}
+.banner button {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 60px;
+  padding: 15px 45px;
+  text-transform: uppercase;
+}
+.servicesection{padding:75px 0;}
+.service {
+  margin-left: 75px;
+}
+.service h2 {
+  color: #8c8b8b;
+  font-size: 40px;
+  padding: 25px 0;
+}
+.service p {
+  color: #8c8b8b;
+  font-size: 19px;
+}
+.serviceimg {
+  background: #e8e8e8 none repeat scroll 0 0;
+  border: 5px solid #ffffff;
+  box-shadow: 0 -2px 2px 0 #999;
+  padding: 30px 0;
+}
+.serviceimg i {
+  color: #fff;
+  font-size: 81px;
+}
+.testimonial {
+  padding: 70px 0;
+}
+.clientheading {
+  margin-bottom: 60px;
+}
+.clientheading h2 {
+  background: #51b105 none repeat scroll 0 0;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 395px;
+  padding: 8px;
+  text-transform: uppercase;
+}
+.clientimg{}
+.clientimg img {
+  border: 8px solid #fff;
+  box-shadow: 0 0 3px 1px #999;
+  width: 100%;
+}
+.clientspeech {
+  margin-top: 40px;
+}
+.clientspeech i {
+  color: #e6e6e6;
+  font-size: 50px;
+  margin-left: 38px;
+}
+.clientspeech p {
+  color: #8c8b8b;
+  font-size: 20px;
+  text-align: center;
+}
+.address{padding:75px 0}
+.addheading {
+  padding-bottom: 45px;
+}
+.addheading h2 {
+  background: #51b105 none repeat scroll 0 0;
+  color: #fff;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  max-width: 270px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+.house{}
+.house i {
+  background: #e6e6e6 none repeat scroll 0 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 30px;
+  margin-right: 20px;
+  padding: 10px 15px;
+}
+.house span {
+  color: #939292;
+  font-size: 20px;
+}
+.roadname {
+  float: right;
+  margin-right: 42px;
+}
+.social {
+  padding-top: 83px;
+}
+.social i {
+  background: #e6e6e6 none repeat scroll 0 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 8px;
+  padding: 10px 15px;
+}
+.mymap{}
+#map {
+      width: 300px;
+      height: 250px;
+    }
+.footersection{background:#333;color:#fff; padding:5px 0}
+.footersection p {
+  font-size: 23px;
+  padding-top: 5px;
+}
+
+#scrollToUp {
+  background: #51b105 none repeat scroll 0 0;
+  bottom: 0;
+  cursor: pointer;
+  height: 58px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  width: 63px;
+}
+#scrollToUp i {
+  color: #fff;
+  font-size: 50px;
+  padding-top: 5px;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+#home-icon{
+  font-size: 20px;
+}
+.tbl{
+  background-color: peru;
+}
