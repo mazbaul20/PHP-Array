@@ -3,8 +3,8 @@
 ?>
 <h2>Array Function</h2>
 <?php
-    $name = array("Mazbaul","Atikur","Monnaf","Jibon","Mijanur","Siddikul");
-    $age  = array(21,23,55,29,16,32);
+    $name = array("Sakib","Abdullah","Younus");
+    $age  = array(23,26,19);
 
     $combine = array_combine($name,$age);
     print("<pre>");
